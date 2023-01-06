@@ -1,0 +1,1 @@
+mods.inworldcrafting.FluidToFluid.transform(<liquid:poison>, <liquid:water> ,[<ore:poisonousFood>],true);

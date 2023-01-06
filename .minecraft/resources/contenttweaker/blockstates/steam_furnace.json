@@ -1,0 +1,15 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "particle": "contenttweaker:blocks/steam_machine_casing"
+      },
+      "model": "contenttweaker:steam_furnace",
+      "uvlock": true,
+      "transform": "forge:default-block"
+    },
+    "variants": {
+      "normal": [{}],
+      "inventory": [{}]
+    }
+  }

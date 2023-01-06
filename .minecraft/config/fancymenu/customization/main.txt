@@ -1,0 +1,150 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = screenshots/2022-07-29_14.14.01.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-right
+  x = -119
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=400322%
+  width = 119
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button.png
+  backgroundnormal = resources\button.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -118
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=400382%
+  width = 119
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button.png
+  backgroundnormal = resources\button.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=502382%
+  width = 70
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button.png
+  backgroundnormal = resources\button.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-right
+  x = -119
+  action = movebutton
+  y = -31
+}
+
+customization {
+  identifier = %id=400298%
+  width = 119
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button.png
+  backgroundnormal = resources\button.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-centered
+  x = 122
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=400346%
+  width = 119
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button.png
+  backgroundnormal = resources\button.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+

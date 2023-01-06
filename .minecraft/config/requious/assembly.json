@@ -1,0 +1,366 @@
+[
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "mix_furnace",
+    "model": "requiousfrakto:mix_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "extraVariants": [],
+    "resourceName": "assemblying_machine",
+    "model": "requiousfrakto:assemblying_machine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "craftshelf",
+    "model": "requiousfrakto:craftshelf",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "oil_refineries",
+    "model": "requiousfrakto:oil_refineries",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "basic_furnace",
+    "model": "requiousfrakto:basic_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "grinder",
+    "model": "requiousfrakto:grinder",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "brick_kiln",
+    "model": "requiousfrakto:brick_kiln",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "mud_furnace",
+    "model": "requiousfrakto:earth_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "award_1",
+    "model": "requiousfrakto:crate",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "steam_furnace",
+    "model": "requiousfrakto:steam_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "steam_spinning_machine",
+    "model": "requiousfrakto:steam_spinning_machine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "steam_grinder_machine",
+    "model": "requiousfrakto:steam_grinder_machine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "steam_compressor_machine",
+    "model": "requiousfrakto:steam_compressor",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "layerType": "Cutout",
+    "hasGUI":true,
+    "extraVariants": [],
+    "resourceName": "steam_fire_furnace",
+    "model": "requiousfrakto:steam_fire_furnace",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  }
+]
