@@ -6,6 +6,11 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.data.IData;
 import mods.ctintegration.util.RawLogger;
 
-var rgn = VanillaFactory.createBaubleItem("redgem_necklace");
-rgn.baubleType = "TRINKET";
-rgn.register();
+var sms = VanillaFactory.createBaubleItem("see_myself");
+sms.onEquipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        RawLogger.logRaw(wearer.nbt.asString());
+    }
+};
+sms.baubleType = "TRINKET";
+sms.register();
