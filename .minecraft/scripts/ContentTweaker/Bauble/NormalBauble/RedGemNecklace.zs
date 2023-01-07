@@ -6,7 +6,7 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.data.IData;
 import mods.ctintegration.util.RawLogger;
 
-var rgn = VanillaFactory.createBaubleItem("redgem_necklace");
+/** var rgn = VanillaFactory.createBaubleItem("redgem_necklace");
 rgn.onEquipped = function(bauble, wearer) {
     if(wearer instanceof IPlayer) {
         val player as IPlayer = wearer;
@@ -25,6 +25,16 @@ rgn.onWornTick = function(bauble, wearer) {
                 player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(1,0));   
             }
         }
+    }
+};
+rgn.baubleType = "TRINKET";
+rgn.register();
+**/
+
+var rgn = VanillaFactory.createBaubleItem("redgem_necklace");
+rgn.onWornTick = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        wearer.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(2,1));
     }
 };
 rgn.baubleType = "TRINKET";
