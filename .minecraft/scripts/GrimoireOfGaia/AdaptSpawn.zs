@@ -4,7 +4,7 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.entity.IEntity;
 import crafttweaker.world.IWorld;
-import crafttweaker.entity.IEntityLivingBase;import crafttweaker.entity.IEntityMob;
+import crafttweaker.entity.IEntityLivingBase;
 
 events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     val world as IWorld = event.world;
