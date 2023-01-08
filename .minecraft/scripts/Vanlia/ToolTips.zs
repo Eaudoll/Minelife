@@ -7,3 +7,4 @@ game.setLocalization("en_us","tips.steamfurnace.name","it just can be used for [
 game.setLocalization("zh_cn","tips.charcoke.name","焦炭的半成品，用于驱动蒸汽机");
 game.setLocalization("en_us","tips.charcoke.name","it is akind of unfinished product of coke,and it should be used for steam machine");
 <contenttweaker:charcoke>.addTooltip(game.localize("tips.charcoke.name"));
+<contenttweaker:redgem_necklace>.addTooltip(game.localize("tips.redgem_necklace.name"));
