@@ -58,7 +58,6 @@ tile.contenttweaker.graphite_ore.name=Graphite Ore
 tile.contenttweaker.steam_machine_casing.name=Steam Machine Casing
 tile.contenttweaker.steam_drill.name=Dark Iron Drill
 tile.contenttweaker.steam_furnace.name=Steam Furnace
-tile.contenttweaker.steam_shelf.name=Dark Iron Shelf
 tile.contenttweaker.dust_block.name=Dust Block
 itemGroup.primitive_existence=Primitive Survival
 itemGroup.chemical_craft=Chemical Craft
