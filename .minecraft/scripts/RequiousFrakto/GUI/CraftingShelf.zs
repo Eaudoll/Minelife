@@ -25,31 +25,6 @@ CTS.setDurationSlot(4,2)
 CTS.setJEIItemSlot(5,2,"output");
 CTS.setJEIDurationSlot(4,2, "duration", SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png",0, 8, 1, 8, GaugeDirection.right(), false, 1, 1));
 
-function CraftingShelfFullRecipeAdder(OutPut as IItemStack,Duration as int,
-one as IIngredient,two as IIngredient,three as IIngredient,
-four as IIngredient,five as IIngredient,six as IIngredient,
-seven as IIngredient,eight as IIngredient,nine as IIngredient
-)
-{
-
-var recipe =AssemblyRecipe.create(function(container){
- container.addItemOutput("output",OutPut);})
-.requireItem("input1",one)
-.requireItem("input2",two)
-.requireItem("input3",three)
-.requireItem("input4",four)
-.requireItem("input5",five)
-.requireItem("input6",six)
-.requireItem("input7",seven)
-.requireItem("input8",eight)
-.requireItem("input9",nine)
-.requireDuration("duration",Duration);
-
-CTS.addRecipe(recipe);
-CTS.addJEIRecipe(recipe);
-
-}
-
 var recipe1 =AssemblyRecipe.create(function(container){
  container.addItemOutput("output",<minelife:primary_pickaxe>);})
 .requireItem("input1",<ore:cobblestone>)
@@ -100,52 +75,16 @@ var recipe4 =AssemblyRecipe.create(function(container){
 CTS.addRecipe(recipe4);
 CTS.addJEIRecipe(recipe4);
 
-//about Artisan Worktables
-CraftingShelfFullRecipeAdder(<artisanworktables:worktable:14>,3000,<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>,<artisanworktables:worktable:5>,<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>);
-CraftingShelfFullRecipeAdder(<artisanworktables:worktable>,3000,<ore:wool>,<ore:wool>,<ore:wool>,<ore:wool>,<artisanworktables:worktable:5>,<ore:wool>,<ore:wool>,<ore:wool>,<ore:wool>);
-CraftingShelfFullRecipeAdder(<artisanworktables:worktable:10>,3000,<ore:dirt>,<ore:dirt>,<ore:dirt>,<ore:dirt>,<artisanworktables:worktable:5>,<ore:dirt>,<ore:dirt>,<ore:dirt>,<ore:dirt>);
 
-var basic =AssemblyRecipe.create(function(container){
- container.addItemOutput("output",<artisanworktables:worktable:5>);})
-.requireItem("input2",<ore:plateWood>)
-.requireItem("input1",<ore:plateWood>)
-.requireItem("input3",<ore:plateWood>)
-.requireItem("input4",<ore:plateWood>)
-.requireItem("input6",<ore:plateWood>)
-.requireItem("input7",<ore:plateWood>)
-.requireItem("input8",<ore:plateWood>)
-.requireItem("input9",<ore:plateWood>)
-.requireDuration("duration",2000);
+// Add Recipe For ArtisanWorktables
+var materials as IIngredient[] = [<ore:crystal>,<ore:plateIron>,<ore:wool>,<minecraft:hardened_clay>,<biomesoplenty:dirt>,<minecraft:leather>];
 
-CTS.addRecipe(basic);
-CTS.addJEIRecipe(basic);
+for i ,material in materials{
 
-var leather =AssemblyRecipe.create(function(container){
- container.addItemOutput("output",<artisanworktables:worktable:13>);})
-.requireItem("input2",<minecraft:leather>)
-.requireItem("input1",<minecraft:leather>)
-.requireItem("input3",<minecraft:leather>)
-.requireItem("input4",<minecraft:leather>)
-.requireItem("input6",<minecraft:leather>)
-.requireItem("input7",<minecraft:leather>)
-.requireItem("input8",<minecraft:leather>)
-.requireItem("input9",<minecraft:leather>)
-.requireItem("input5",<artisanworktables:worktable:5>)
-.requireDuration("duration",2000);
-CTS.addRecipe(leather);
-CTS.addJEIRecipe(leather);
+var Output as IItemStack[] = [<artisanworktables:worktable:7>,<artisanworktables:worktable:3>,<artisanworktables:worktable>,<artisanworktables:worktable:14>,<artisanworktables:worktable:10>,<artisanworktables:worktable:13>];
 
-var iron =AssemblyRecipe.create(function(container){
- container.addItemOutput("output",<artisanworktables:worktable:3>);})
-.requireItem("input2",<ore:plateIron>)
-.requireItem("input1",<ore:plateIron>)
-.requireItem("input3",<ore:plateIron>)
-.requireItem("input4",<ore:plateIron>)
-.requireItem("input6",<ore:plateIron>)
-.requireItem("input7",<ore:plateIron>)
-.requireItem("input8",<ore:plateIron>)
-.requireItem("input9",<ore:plateIron>)
-.requireItem("input5",<artisanworktables:worktable:5>)
-.requireDuration("duration",2000);
-CTS.addRecipe(iron);
-CTS.addJEIRecipe(iron);
+Function.CTSEadder(<artisanworktables:worktable:5>,material,Output[i],2000);
+
+}
+
+Function.CTSEadder(<contenttweaker:gravel>,<contenttweaker:gravel>,<minecraft:cobblestone>,1000);
