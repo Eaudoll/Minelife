@@ -141,3 +141,22 @@ machine.addRecipe(recipe);
 machine.addJEIRecipe(recipe);
 
 }
+
+function CTSEadder(machine as Assembly,Core as IIngredient,Material as IIngredient,OutPut as IItemStack,Time as int){
+
+val recipe =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",OutPut);})
+.requireItem("input2",Material)
+.requireItem("input1",Material)
+.requireItem("input3",Material)
+.requireItem("input4",Material)
+.requireItem("input6",Material)
+.requireItem("input7",Material)
+.requireItem("input8",Material)
+.requireItem("input9",Material)
+.requireItem("input5",Core)
+.requireDuration("duration",Time);
+CTS.addRecipe(recipe);
+CTS.addJEIRecipe(recipe);
+
+}
