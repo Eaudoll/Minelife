@@ -85,3 +85,5 @@ Function.CTSEadder(<artisanworktables:worktable:5>,material,Output[i],2000);
 }
 
 Function.CTSEadder(<contenttweaker:gravel>,<contenttweaker:gravel>,<minecraft:cobblestone>,1000);
+
+Function.CTSEadder(<requious:craftshelf>,<techreborn:plates:3>,<artisanworktables:worktable:5>,1000);
