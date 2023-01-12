@@ -59,9 +59,6 @@ var recipe3 =AssemblyRecipe.create(function(container){
 CTS.addRecipe(recipe3);
 CTS.addJEIRecipe(recipe3);
 
-CraftingShelfFullRecipeAdder(<minecraft:cobblestone>,1000,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>,<contenttweaker:gravel>);
-
-
 var recipe4 =AssemblyRecipe.create(function(container){
  container.addItemOutput("output",<variedcommodities:hammer>);})
 .requireItem("input2",<ore:stoneShard>)
