@@ -142,7 +142,9 @@ machine.addJEIRecipe(recipe);
 
 }
 
-function CTSEadder(machine as Assembly,Core as IIngredient,Material as IIngredient,OutPut as IItemStack,Time as int){
+function CTSEadder(Core as IIngredient,Material as IIngredient,OutPut as IItemStack,Time as int){
+
+val CTS = <assembly:craftshelf>;
 
 val recipe =AssemblyRecipe.create(function(container){
  container.addItemOutput("output",OutPut);})
