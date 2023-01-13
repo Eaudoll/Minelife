@@ -23,7 +23,7 @@ function itemAdder(name as string, rarity as string, maxdamage as int, maxstacks
 //common_items
 var common as string[] =
 [
-    "steam_compressor","steam_furnace","steam_smelting_furnace","steam_grinder","steam_compressor"
+    "steam_compressor","steam_furnace","steam_smelting_furnace","steam_grinder","steam_spinning"
 ];
 for Common in common {
     itemAdder(Common, "common", -1, 64, -1, false, false);
