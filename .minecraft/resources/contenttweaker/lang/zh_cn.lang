@@ -55,6 +55,7 @@ item.contenttweaker.steam_grinder.name=机械图纸(蒸汽粉碎机)
 item.contenttweaker.steam_furnace.name=机械图纸(蒸汽锅炉)
 item.contenttweaker.steam_smelting_furnace.name=机械图纸(蒸汽冶炼炉)
 item.contenttweaker.steam_spinning_machine.name=机械图纸(蒸汽编织机)
+item.contenttweaker.tech_update.name=工程师升级
 tile.contenttweaker.furnace_brick.name=炉砖
 tile.contenttweaker.black_brick_block.name=青砖
 tile.contenttweaker.hematite.name=赤铁矿
