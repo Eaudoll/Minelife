@@ -71,6 +71,7 @@ tile.contenttweaker.steam_machine_casing.name=蒸汽机器外壳
 tile.contenttweaker.steam_drill.name=玄铁钻头
 tile.contenttweaker.steam_furnace.name=蒸汽锅炉
 tile.contenttweaker.dust_block.name=尘土
+tile.contenttweaker.blower.name=Blower
 itemGroup.primitive_existence=原始生存
 itemGroup.ore=矿石
 itemGroup.chemical_craft=化学工艺
