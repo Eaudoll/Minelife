@@ -8,7 +8,7 @@ import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Fluid;
 
-val tabm as CreativeTab = VanillaFactory.createCreativeTab("magical_craft", <item:contenttweaker:magic_gem>);
+val tabm as CreativeTab = VanillaFactory.createCreativeTab("magical_craft", <item:contenttweaker:magical_gem>);
 tabm.register();
 
 function itemAdder(name as string, rarity as string, maxdamage as int, maxstacksize as int, lvl as int, glowing as bool, isTool as bool) {
