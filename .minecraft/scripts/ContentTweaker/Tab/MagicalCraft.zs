@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 100
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.CreativeTab;
