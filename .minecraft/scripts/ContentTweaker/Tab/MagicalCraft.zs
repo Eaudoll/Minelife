@@ -36,7 +36,7 @@ for Common in common {
 
 function blockAdder(name as string, blockmaterial as BlockMaterial, blockLayer as string, blockHardness as float, toolLevel as int, toolClass as string) {
     var block as Block = VanillaFactory.createBlock(name, blockmaterial);
-    block.creativeTab = <creativetab:chemical_craft>;
+    block.creativeTab = <creativetab:magical_craft>;
     block.blockLayer = blockLayer;
     block.blockHardness = blockHardness;
     block.toolLevel = toolLevel;
