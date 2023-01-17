@@ -12,7 +12,7 @@ tabm.register();
 
 function itemAdder(name as string, rarity as string, maxdamage as int, maxstacksize as int, lvl as int, glowing as bool, isTool as bool) {
     var item as Item = VanillaFactory.createItem(name);
-    item.creativeTab = <creativetab:chemical_craft>;
+    item.creativeTab = <creativetab:magical_craft>;
     item.rarity = rarity;
     item.maxDamage = maxdamage;
     item.maxStackSize = maxstacksize;
