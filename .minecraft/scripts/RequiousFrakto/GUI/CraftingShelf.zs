@@ -74,11 +74,11 @@ CTS.addJEIRecipe(recipe4);
 
 
 // Add Recipe For ArtisanWorktables
-var materials as IIngredient[] = [<ore:crystal>,<ore:plateIron>,<ore:wool>,<minecraft:hardened_clay>,<biomesoplenty:dirt>,<minecraft:leather>];
+var materials as IIngredient[] = [<ore:crystal>,<ore:plateIron>,<ore:wool>,<minecraft:hardened_clay>,<biomesoplenty:dirt>,<minecraft:leather>,<contenttweaker:stone_shard>];
 
 for i ,material in materials{
 
-var Output as IItemStack[] = [<artisanworktables:worktable:7>,<artisanworktables:worktable:3>,<artisanworktables:worktable>,<artisanworktables:worktable:14>,<artisanworktables:worktable:10>,<artisanworktables:worktable:13>];
+var Output as IItemStack[] = [<artisanworktables:worktable:7>,<artisanworktables:worktable:3>,<artisanworktables:worktable>,<artisanworktables:worktable:14>,<artisanworktables:worktable:10>,<artisanworktables:worktable:13>,<artisanworktables:worktable:2>];
 
 Function.CTSEadder(<artisanworktables:worktable:5>,material,Output[i],2000);
 
