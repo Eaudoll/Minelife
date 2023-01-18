@@ -89,7 +89,7 @@ br.setJEIDurationSlot(2,4, "fire", SlotVisual.createGauge("requious:textures/gui
 br.setJEIItemSlot(8,4,"need");
 
 var recipe1 =AssemblyRecipe.create(function(container){
- container.addItemOutput("output",<minecraft:brick>);})
+ container.addItemOutput("output",<minecraft:brick>*5);})
 .requireItem("input1", <minecraft:clay>)
 .requireItem("input2", <minecraft:clay>)
 .requireItem("input3", <minecraft:clay>)
