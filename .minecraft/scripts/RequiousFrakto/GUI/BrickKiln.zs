@@ -105,7 +105,7 @@ var recipe1 =AssemblyRecipe.create(function(container){
 
 
 var recipe2 =AssemblyRecipe.create(function(container){
- container.addItemOutput("output",<contenttweaker:black_brick>*2);})
+ container.addItemOutput("output",<contenttweaker:black_brick>*5);})
 .requireItem("input1", <minecraft:clay>)
 .requireItem("input2", <contenttweaker:graphite>)
 .requireItem("input3", <minecraft:clay>)
