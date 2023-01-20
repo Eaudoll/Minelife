@@ -22,3 +22,6 @@ import crafttweaker.item.IItemStack;
 var items as IItemStack[] = [<minecraft:spider_eye>,<minecraft:poisonous_potato>,<minecraft:rotten_flesh>,<minecraft:fish:3>];
 for item in items{<ore:poisonousFood>.add(item);}
 
+val crystals as IItemStack[] = [<quark:crystal>,<quark:crystal:1>,<quark:crystal:2>,<quark:crystal:3>,<quark:crystal:4>,<quark:crystal:5>,<quark:crystal:6>,<quark:crystal:7>,<quark:crystal:8>];
+for crystal in crystals{<ore:crystal>.add(crystal);}
+
