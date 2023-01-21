@@ -1,7 +1,21 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
-var items as IItemStack[] = [<minecraft:leather_helmet>,<minecraft:leather_chestplate>,<minecraft:leather_leggings>,<minecraft:leather_boots>,<ore:chestWood>];
+var items as IIngredient[] = [<minecraft:leather_helmet>,
+<minecraft:leather_chestplate>,
+<minecraft:leather_leggings>,
+<minecraft:leather_boots>,
+<minecraft:chest>,
+<ore:craftingTableWood>,
+<ore:logWood>];
 
 for item in items{
     recipes.remove(item);
 }
+
+ recipes.addShaped(<minecraft:stone>,
+ [[<ore:stoneShard>,<ore:stoneShard>,null],
+ [<ore:stoneShard>,<ore:stoneShard>,null],
+ [null, null,null]]);
+
+recipes.addShapeless(<techreborn:plates:3>*4,[<ore:logWood>]);
