@@ -5,52 +5,82 @@ import mods.dropt.Harvester;
 Dropt.list("bioleaves1_list")
     .add(Dropt.rule()
         .matchBlocks(["biomesoplenty:leaves_1:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("REAL_PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("bioleaves0_list")
     .add(Dropt.rule()
         .matchBlocks(["biomesoplenty:leaves_0:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("REAL_PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("bioleaves2_list")
     .add(Dropt.rule()
         .matchBlocks(["biomesoplenty:leaves_2:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("REAL_PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("biograss_list")
     .add(Dropt.rule()
         .matchBlocks(["biomesoplenty:grass:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("REAL_PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:gravel>],Dropt.range(1,2))));
+        .items([<contenttweaker:gravel>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("bioleaves3_list")
     .add(Dropt.rule()
         .matchBlocks(["biomesoplenty:leaves_3:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("REAL_PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("bioleaves4_list")
     .add(Dropt.rule()
         .matchBlocks(["biomesoplenty:leaves_4:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("REAL_PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
-//biolog change
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
+//biolog change
 
 Dropt.list("biowood_list")
     .add(Dropt.rule()

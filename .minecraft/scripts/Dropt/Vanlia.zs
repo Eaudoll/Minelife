@@ -6,36 +6,60 @@ import mods.dropt.Rule;
 Dropt.list("leaves_list")
     .add(Dropt.rule()
         .matchBlocks(["minecraft:leaves:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
-            .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
+        .selector( Dropt.weight(1), "EXCLUDED")
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("leaves2_list")
     .add(Dropt.rule()
         .matchBlocks(["minecraft:leaves2:*"])
+        .matchHarvester(Dropt.harvester()
+        .type("PLAYER"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
-        .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:branch>],Dropt.range(1,2))));
+        .selector( Dropt.weight(3), "EXCLUDED")
+        .items([<contenttweaker:branch>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 
 //grass and dirt change
 Dropt.list("dirt_list")
     .add(Dropt.rule()
         .matchBlocks(["minecraft:dirt:*"])
+        .matchHarvester(
+        Dropt.harvester()
+        .type("PLAYER")
+        .mainHand("BLACKLIST",[],"shovel"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
-        .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:gravel>],Dropt.range(1,2))));
+        .selector( Dropt.weight(3), "EXCLUDED")
+        .items([<contenttweaker:gravel>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 Dropt.list("grass_list")
     .add(Dropt.rule()
         .matchBlocks(["minecraft:grass"])
+        .matchHarvester(
+        Dropt.harvester()
+        .type("PLAYER")
+        .mainHand("BLACKLIST",[],"shovel"))
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
-        .selector( Dropt.weight(1), "EXCLUDED")
-            .items([<contenttweaker:gravel>],Dropt.range(1,2))));
+        .selector( Dropt.weight(3), "EXCLUDED")
+        .items([<contenttweaker:gravel>],Dropt.range(1,2)))
+        .addDrop(Dropt.drop()
+        .selector( Dropt.weight(7), "EXCLUDED")
+        .items([],Dropt.range(1,2))));
 
 //stone change
 Dropt.list("stone_list")
@@ -43,9 +67,11 @@ Dropt.list("stone_list")
         .matchBlocks(["minecraft:stone"])
         .replaceStrategy("REPLACE_ALL_IF_SELECTED")
         .addDrop(Dropt.drop()
+        .selector( Dropt.weight(9), "EXCLUDED")
+        .items("ALL",[<contenttweaker:stone_shard>,<contenttweaker:flint_shard>],Dropt.range(2,3)))
+        .addDrop(Dropt.drop()
         .selector( Dropt.weight(1), "EXCLUDED")
-            .items("ALL",[<contenttweaker:stone_shard>,<contenttweaker:flint_shard>],Dropt.range(2,3))
-            ));
+        .items([<contenttweaker:flint_shard>],Dropt.range(1))));
 
 //log change
 Dropt.list("wood_list")
