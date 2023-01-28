@@ -119,9 +119,24 @@ var recipe2 =AssemblyRecipe.create(function(container){
 .requireDuration("duration", 1000)
 .requireDuration("fire", 1000);
 
-
+var recipe3 =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",<contenttweaker:furnace_brick>);})
+.requireItem("input1", <contenttweaker:black_brick_block>)
+.requireItem("input2", <minecraft:gravel>)
+.requireItem("input3", <minecraft:clay>)
+.requireItem("input4", <minecraft:gravel>)
+.requireItem("input5", <minecraft:gravel>)
+.requireItem("input6", <minecraft:clay>)
+.requireItem("input7", <minecraft:gravel>)
+.requireItem("input8", <minecraft:clay>)
+.requireItem("input9", <minecraft:clay>)
+.requireItem("need", <minecraft:coal>*2)
+.requireDuration("duration", 1000)
+.requireDuration("fire", 1000);
 
 br.addRecipe(recipe1);
 br.addJEIRecipe(recipe1);
 br.addRecipe(recipe2);
 br.addJEIRecipe(recipe2);
+br.addRecipe(recipe3);
+br.addJEIRecipe(recipe3);
