@@ -42,15 +42,6 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(<requious:mix_furnace>)
   .create();
-
-RecipeBuilder.get("mason")
-  .setShaped([
-    [null, <contenttweaker:graphite>, null],
-    [<contenttweaker:graphite>, <contenttweaker:black_brick_block>, <contenttweaker:graphite>],
-    [null, <contenttweaker:graphite>, null]])
-  .addOutput(<contenttweaker:furnace_brick>)
-  .addTool(<ore:artisansTrowel>, 10)
-  .create();
   
  RecipeBuilder.get("mason")
   .setShaped([
