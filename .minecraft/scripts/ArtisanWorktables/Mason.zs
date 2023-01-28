@@ -51,3 +51,12 @@ RecipeBuilder.get("mason")
   .addOutput(<contenttweaker:furnace_brick>)
   .addTool(<ore:artisansTrowel>, 10)
   .create();
+  
+ RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:better_stone_plate>, <contenttweaker:better_stone_plate>, <contenttweaker:better_stone_plate>],
+    [<contenttweaker:better_stone_plate>, null, <contenttweaker:better_stone_plate>],
+    [<contenttweaker:better_stone_plate>, <contenttweaker:better_stone_plate>, <contenttweaker:better_stone_plate>]])
+  .addTool(<ore:artisansTrowel>, 10)
+  .addOutput(<requious:brick_kiln>)
+  .create();
