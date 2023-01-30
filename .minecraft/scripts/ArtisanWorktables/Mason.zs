@@ -37,7 +37,7 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
   .setShaped([
     [<biomesoplenty:ash_block>, <contenttweaker:furnace_brick>, <biomesoplenty:ash_block>],
-    [<contenttweaker:furnace_brick>, nul<requious:basic_furnace>, <contenttweaker:furnace_brick>],
+    [<contenttweaker:furnace_brick>, <requious:basic_furnace>, <contenttweaker:furnace_brick>],
     [<biomesoplenty:ash_block>, <contenttweaker:furnace_brick>, <biomesoplenty:ash_block>]])
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(<requious:mix_furnace>)

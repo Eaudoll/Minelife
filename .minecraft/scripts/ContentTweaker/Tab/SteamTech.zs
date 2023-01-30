@@ -26,7 +26,7 @@ function itemAdder(name as string, rarity as string, maxdamage as int, maxstacks
 }
 
 var common as string[] =
-["charcoke","steam_ingot"];
+["charcoke","steam_ingot","steel_drill"];
 for Common in common {
     itemAdder(Common, "common", -1, 64, -1, false, false);
 }
