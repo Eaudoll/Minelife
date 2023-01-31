@@ -83,6 +83,15 @@ Dropt.list("wood_list")
             .items([<techreborn:plates:3>],Dropt.range(4))
             ));
 
+Dropt.list("wood2_list")
+    .add(Dropt.rule()
+        .matchBlocks(["minecraft:log2:*"])
+        .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+        .addDrop(Dropt.drop()
+            .selector( Dropt.weight(1), "EXCLUDED")
+            .items([<techreborn:plates:3>],Dropt.range(4))
+            ));
+            
 //make sand turn to Dsut Block
 
 Dropt.list("sand_to_dust")
