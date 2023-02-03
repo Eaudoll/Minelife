@@ -1,47 +1,10 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemStack;
 
-/** 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<contenttweaker:steel_drill>],
-    [<ironchest:iron_chest:3>],
-    [<contenttweaker:steam_machine_casing>]])
-  .addTool(<contenttweaker:steam_grinder>, 0)
-  .addOutput(<requious:steam_grinder_machine>)
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<minecraft:piston>],
-    [<ironchest:iron_chest:3>],
-    [<contenttweaker:steam_machine_casing>]])
-  .addTool(<contenttweaker:steam_compressor>,0)
-  .addOutput(<requious:steam_compressor_machine>)
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<requious:basic_furnace>],
-    [<ironchest:iron_chest:3>],
-    [<contenttweaker:steam_machine_casing>]])
-  .addTool(<contenttweaker:steam_smelting_furnace>,0)
-  .addOutput(<requious:steam_fire_furnace>)
-  .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<artisanworktables:worktable>],
-    [<ironchest:iron_chest:3>],
-    [<contenttweaker:steam_machine_casing>]])
-  .addTool(<contenttweaker:steam_spinning_machine>,0)
-  .addOutput(<requious:steam_spinning_machine>)
-  .create();
-**/
 RecipeBuilder.get("engineer")
   .setShaped([
     [<contenttweaker:steam_ingot>, <contenttweaker:steam_ingot>, <contenttweaker:steam_ingot>],
-    [<contenttweaker:steam_ingot>, <requious:basic_furnace>, <contenttweaker:steam_ingot>],
+    [<travelersbackpack:backpack_tank>, <requious:basic_furnace>,<travelersbackpack:backpack_tank>],
     [<contenttweaker:steam_ingot>, <contenttweaker:steam_ingot>, <contenttweaker:steam_ingot>]])
   .addTool(<contenttweaker:steam_furnace>,0)
   .addOutput(<requious:steam_furnace>)
@@ -56,8 +19,8 @@ for i,print in prints{
     RecipeBuilder.get("engineer")
   .setShaped([
     [coms[i]],
-    [<ironchest:iron_chest:3>],
-    [<contenttweaker:steam_machine_casing>]])
+    [<buildcraftcore:gear_iron>,<ironchest:iron_chest:3>,<buildcraftcore:gear_iron>],
+    [<travelersbackpack:backpack_tank>,<contenttweaker:steam_machine_casing>,<travelersbackpack:backpack_tank>]])
   .addTool(print,0)
   .addOutput(outputs[i])
   .create();
