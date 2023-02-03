@@ -1,4 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IItemStack;
 
 RecipeBuilder.get("blacksmith")
   .setShaped([
