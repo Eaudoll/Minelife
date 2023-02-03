@@ -7,7 +7,10 @@ var items as IIngredient[] = [<minecraft:leather_helmet>,
 <minecraft:leather_boots>,
 <minecraft:chest>,
 <ore:craftingTableWood>,
-<ore:logWood>];
+<ore:logWood>,
+<buildcraftcore:gear_iron>,
+<buildcraftcore:gear_gold>,
+<buildcraftcore:gear_diamond>];
 
 for item in items{
     recipes.remove(item);

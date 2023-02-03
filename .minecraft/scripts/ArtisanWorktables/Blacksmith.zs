@@ -62,3 +62,18 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<contenttweaker:steam_machine_casing>)
   .addTool(<minelife:wrought_iron_hammer>, 10)
   .create();
+
+function GearAdd(plate as IItemStack,nugget as IItemStack,gear as IItemStack){
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, nugget, null],
+    [nugget,plate, nugget],
+    [null, nugget, null]])
+  .addTool(<minelife:wrought_iron_hammer>,10)
+  .addOutput(gear)
+  .create();
+}
+
+GearAdd(<techreborn:plates>,<techreborn:nuggets:23>,<buildcraftcore:gear_iron>);
+GearAdd(<techreborn:plates:1>,<minecraft:gold_nugget>,<buildcraftcore:gear_gold>);
+GearAdd(<techreborn:plates:5>,<techreborn:nuggets:24>,<buildcraftcore:gear_diamond>);
