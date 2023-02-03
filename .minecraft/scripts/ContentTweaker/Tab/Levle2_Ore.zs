@@ -10,7 +10,7 @@ import mods.contenttweaker.Fluid;
 
 function blockAdder(name as string, blockmaterial as BlockMaterial, blockLayer as string, blockHardness as float, toolLevel as int, toolClass as string) {
     var block as Block = VanillaFactory.createBlock(name, blockmaterial);
-    block.creativeTab = <creativetab:misc>;
+    block.creativeTab = <creativetab:ore>;
     block.blockLayer = blockLayer;
     block.blockHardness = blockHardness;
     block.toolLevel = toolLevel;
