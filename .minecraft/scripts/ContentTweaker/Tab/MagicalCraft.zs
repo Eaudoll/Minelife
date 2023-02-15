@@ -29,7 +29,7 @@ function itemAdder(name as string, rarity as string, maxdamage as int, maxstacks
 //common_items
 var common as string[] =
 [
- "wind_rod","water_rod","wood_rod","flash_rod","thunder_rod","livingrock_plate"
+ "wind_rod","water_rod","wood_rod","flash_rod","thunder_rod","livingrock_plate","gem_shard"
 ];
 for Common in common {
     itemAdder(Common, "common", -1, 64, -1, false, false);
