@@ -18,7 +18,7 @@ for i,print in prints{
     val outputs as IItemStack[] = [<requious:steam_grinder_machine>,<requious:steam_compressor_machine>,<requious:steam_fire_furnace>,<requious:steam_spinning_machine>];
     RecipeBuilder.get("engineer")
   .setShaped([
-    [coms[i]],
+    [null,coms[i],null],
     [<buildcraftcore:gear_iron>,<ironchest:iron_chest:3>,<buildcraftcore:gear_iron>],
     [<travelersbackpack:backpack_tank>,<contenttweaker:steam_machine_casing>,<travelersbackpack:backpack_tank>]])
   .addTool(print,0)
