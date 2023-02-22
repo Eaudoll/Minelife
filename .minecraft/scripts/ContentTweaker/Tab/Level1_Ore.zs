@@ -21,7 +21,7 @@ function blockAdder(name as string, blockmaterial as BlockMaterial, blockLayer a
 }
 
 var ore as string[] = [
-   "hematite","siderite","pyrite","magnetite","graphite_ore","oil_ore","magic_ore","magic_ore"
+   "hematite","siderite","pyrite","magnetite","graphite_ore","oil_ore","magic_ore"
 ];
 
 for Ore in ore {
