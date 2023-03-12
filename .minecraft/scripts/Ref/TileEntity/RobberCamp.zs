@@ -1,3 +1,4 @@
+#priority 100
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
@@ -8,10 +9,13 @@ import mods.requious.AssemblyRecipe;
 import mods.requious.MachineContainer;
 import mods.requious.GaugeDirection;
 import mods.requious.Assembly;
-import scripts.RequiousFrakto.Function;
+import scripts.Ref.Function.Normal;
+import scripts.Ref.Function.Default;
+import scripts.Ref.Function.Recipe;
 
-static AWR as Assembly = <assembly:award_1>;
-Function.AddAward(AWR);
+val AWR = <assembly:award_1>;
+
+Default.AddAward(<assembly:award_1>);
 
 var recipe =AssemblyRecipe.create(function(container){
  container.addItemOutput("output1",<minelife:iron_prop>);

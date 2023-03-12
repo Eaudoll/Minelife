@@ -1,3 +1,4 @@
+#priority 100
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
@@ -8,22 +9,33 @@ import mods.requious.AssemblyRecipe;
 import mods.requious.MachineContainer;
 import mods.requious.GaugeDirection;
 import mods.requious.Assembly;
-import scripts.RequiousFrakto.Function;
+import scripts.Ref.Function.Normal;
+import scripts.Ref.Function.Default;
+import scripts.Ref.Function.Recipe;
 
-static CTS as Assembly = <assembly:craftshelf>;
-Function.NineSlotsSet(<assembly:craftshelf>);
+global CTS as Assembly = <assembly:craftshelf>;
 
-CTS.setItemSlot(5,2, ComponentFace.front(), 64)
-         .setHandAccess(true, true)
-         .setAccess(true, false)
-         .setGroup("output");
+Default.NineSlotsSet(CTS);
 
-CTS.setDurationSlot(4,2)
-        .setVisual(SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png", 0, 8, 1, 8, GaugeDirection.right(), false, 1, 1))
-        .setGroup("duration");
+Normal.SetRightArrowSlot(CTS,4,2);
 
-CTS.setJEIItemSlot(5,2,"output");
-CTS.setJEIDurationSlot(4,2, "duration", SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png",0, 8, 1, 8, GaugeDirection.right(), false, 1, 1));
+Normal.SetItemSlot(CTS,5,2,downF,"output");
+
+// Add Recipe For ArtisanWorktables
+var materials as IIngredient[] = [<ore:crystal>,<ore:plateIron>,<ore:wool>,<minecraft:hardened_clay>,<biomesoplenty:dirt>,<minecraft:leather>,<contenttweaker:stone_shard>];
+
+for i ,material in materials{
+
+var Output as IItemStack[] = [<artisanworktables:worktable:7>,<artisanworktables:worktable:3>,<artisanworktables:worktable>,<artisanworktables:worktable:14>,<artisanworktables:worktable:10>,<artisanworktables:worktable:13>,<artisanworktables:worktable:2>];
+
+Recipe.CTSEadder(<artisanworktables:worktable:5>,material,Output[i],2000);
+
+}
+
+Recipe.CTSEadder(<contenttweaker:gravel>,<contenttweaker:gravel>,<minecraft:cobblestone>,1000);
+
+Recipe.CTSEadder(<requious:craftshelf>,<techreborn:plates:3>,<artisanworktables:worktable:5>,1000);
+
 
 var recipe1 =AssemblyRecipe.create(function(container){
  container.addItemOutput("output",<minelife:primary_pickaxe>);})
@@ -71,19 +83,3 @@ var recipe4 =AssemblyRecipe.create(function(container){
 
 CTS.addRecipe(recipe4);
 CTS.addJEIRecipe(recipe4);
-
-
-// Add Recipe For ArtisanWorktables
-var materials as IIngredient[] = [<ore:crystal>,<ore:plateIron>,<ore:wool>,<minecraft:hardened_clay>,<biomesoplenty:dirt>,<minecraft:leather>,<contenttweaker:stone_shard>];
-
-for i ,material in materials{
-
-var Output as IItemStack[] = [<artisanworktables:worktable:7>,<artisanworktables:worktable:3>,<artisanworktables:worktable>,<artisanworktables:worktable:14>,<artisanworktables:worktable:10>,<artisanworktables:worktable:13>,<artisanworktables:worktable:2>];
-
-Function.CTSEadder(<artisanworktables:worktable:5>,material,Output[i],2000);
-
-}
-
-Function.CTSEadder(<contenttweaker:gravel>,<contenttweaker:gravel>,<minecraft:cobblestone>,1000);
-
-Function.CTSEadder(<requious:craftshelf>,<techreborn:plates:3>,<artisanworktables:worktable:5>,1000);
