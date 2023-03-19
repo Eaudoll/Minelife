@@ -78,3 +78,12 @@ RecipeBuilder.get("blacksmith")
 GearAdd(<techreborn:plates>,<techreborn:nuggets:23>,<buildcraftcore:gear_iron>);
 GearAdd(<techreborn:plates:1>,<minecraft:gold_nugget>,<buildcraftcore:gear_gold>);
 GearAdd(<techreborn:plates:5>,<techreborn:nuggets:24>,<buildcraftcore:gear_diamond>);
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, <contenttweaker:wrought_iron>, <contenttweaker:wrought_iron>],
+    [null, <contenttweaker:wrought_iron>, <contenttweaker:wrought_iron>],
+    [<contenttweaker:wrought_iron>, null, null]])
+  .addTool(<minelife:wrought_iron_hammer>, 10)
+  .addOutput(<contenttweaker:steel_drill>)
+  .create();

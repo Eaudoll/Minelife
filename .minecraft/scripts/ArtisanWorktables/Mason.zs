@@ -51,3 +51,12 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansTrowel>, 10)
   .addOutput(<requious:brick_kiln>)
   .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<prodigytech:ash_bricks>, <prodigytech:ash_bricks>, <prodigytech:ash_bricks>],
+    [<prodigytech:ash_bricks>, <requious:steam_smelting_furnace>, <prodigytech:ash_bricks>],
+    [<prodigytech:ash_bricks>, <prodigytech:ash_bricks>, <prodigytech:ash_bricks>]])
+  .addOutput(<prodigytech:explosion_furnace>)
+  .addTool(<ore:artisansTrowel>,10)
+  .create();

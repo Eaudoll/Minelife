@@ -25,3 +25,30 @@ for i,print in prints{
   .addOutput(outputs[i])
   .create();
 }
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:middel_barrel>],
+    [<buildcraftcore:gear_iron>],
+    [<contenttweaker:gun_stick>]])
+  .addTool(<contenttweaker:middel_gun>, 1)
+  .addOutput(<archaicguns:pipegun>.withTag({AmmoCount: 0}))
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:short_barrel>],
+    [<buildcraftcore:gear_iron>],
+    [<contenttweaker:gun_stick>]])
+  .addTool(<contenttweaker:short_gun>, 1)
+  .addOutput(<archaicguns:blunderbuss>.withTag({AmmoCount: 0}))
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:long_barrel>],
+    [<buildcraftcore:gear_iron>],
+    [<contenttweaker:gun_stick>]])
+  .addTool(<contenttweaker:long_gun>, 1)
+  .addOutput(<archaicguns:musket>.withTag({AmmoCount: 0}))
+  .create();
