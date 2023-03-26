@@ -25,6 +25,8 @@ Recipe.SteamRecipeAdder(<assembly:steam_grinder_machine>,<techreborn:dust:34>,<t
 Recipe.SteamRecipeAdder(<assembly:steam_grinder_machine>,<techreborn:dust:27> ,<ore:ingotIron>,1000);
 Recipe.SteamRecipeAdder(<assembly:steam_grinder_machine>,<techreborn:dust:14>,<ore:ingotCopper>,500);
 Recipe.SteamRecipeAdder(<assembly:steam_grinder_machine>,<techreborn:dust:53>,<ore:ingotTin>,500);
+Recipe.SteamRecipeAdder(<assembly:steam_grinder_machine>,<prodigytech:diamond_dust> ,<ore:gemDiamond>,1000);
+Recipe.SteamRecipeAdder(<assembly:steam_grinder_machine>,<prodigytech:emerald_dust> ,<ore:gemEmerald>,1000);
 Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<techreborn:ingot>,<contenttweaker:aluminum_ore>,1000);
 Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<techreborn:ingot:9>,<contenttweaker:nickel_ore>,1000);
 Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<techreborn:ingot:12> ,<ore:ingotIron>,2000);
