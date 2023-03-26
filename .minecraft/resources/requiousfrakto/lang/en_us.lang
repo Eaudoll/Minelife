@@ -26,3 +26,5 @@ tile.steam_grinder_machine.name=Steam Grinder
 requious.jei.recipe.steam_grinder_machine=Grinding
 tile.steam_spinning_machine.name=Steam Spinning Machine
 requious.jei.recipe.steam_spinning_machine=Spinning
+tile.etched_machine.name=Etched Machine
+requious.hei.recipe.etched_machine=Etching

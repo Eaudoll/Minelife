@@ -26,3 +26,5 @@ tile.steam_grinder_machine.name=蒸汽粉碎机
 requious.jei.recipe.steam_grinder_machine=粉碎
 tile.steam_spinning_machine.name=蒸汽编织机
 requious.jei.recipe.steam_spinning_machine=编织
+tile.etched_machine.name=刻印机
+requious.hei.recipe.etched_machine=刻印
