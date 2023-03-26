@@ -124,3 +124,18 @@ mix.addRecipe(recipe);
 mix.addJEIRecipe(recipe);
 
 }
+
+function EtchedMachineAdder(Output as IItemStack,Input as IIngredient,Duration as int,Energy as IItemStack){
+
+val etch = <assembly:etched_machine>;
+
+var recipe =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",Output);})
+.requireItem("input",Input)
+.requireItem("energy",Energy)
+.requireDuration("duration",Duration);
+
+etch.addRecipe(recipe);
+etch.addJEIRecipe(recipe);
+
+}
