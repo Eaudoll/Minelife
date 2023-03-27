@@ -1,3 +1,5 @@
+import mods.artisanworktables.builder.RecipeBuilder;
+
 RecipeBuilder.get("potter")
   .setShaped([
     [<prodigytech:ferramic_ingot>, <prodigytech:ferramic_ingot>, <prodigytech:ferramic_ingot>],
