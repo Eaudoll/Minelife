@@ -46,7 +46,7 @@ function blockAdder(name as string, blockmaterial as BlockMaterial, blockLayer a
 }
 
 var ore as string[] = [
-   "better_stone","furnace_brick","black_brick_block","hard_brick"
+   "better_stone","furnace_brick","black_brick_block"
 ];
 
 for Ore in ore {
