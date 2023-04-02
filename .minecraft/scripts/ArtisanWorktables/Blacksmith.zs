@@ -87,3 +87,21 @@ RecipeBuilder.get("blacksmith")
   .addTool(<minelife:wrought_iron_hammer>, 10)
   .addOutput(<contenttweaker:steel_drill>)
   .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<prodigytech:zorra_leaf>, <prodigytech:zorra_leaf>, <prodigytech:zorra_leaf>],
+    [<prodigytech:zorra_leaf>, <contenttweaker:damascus_steel_ingot>, <prodigytech:zorra_leaf>],
+    [<prodigytech:zorra_leaf>, <prodigytech:zorra_leaf>, <prodigytech:zorra_leaf>]])
+  .addTool(<minelife:wrought_iron_hammer>, 10)
+  .addOutput(<prodigytech:zorrasteel_raw>)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<techreborn:ingot:12>, <techreborn:ingot:12>, <techreborn:ingot:12>],
+    [<techreborn:ingot:12>, <requious:steam_fire_furnace>, <techreborn:ingot:12>],
+    [<techreborn:ingot:12>, <techreborn:ingot:12>, <techreborn:ingot:12>]])
+    .addTool(<minelife:wrought_iron_hammer>, 10)
+  .addOutput(<techreborn:iron_alloy_furnace>)
+  .create();

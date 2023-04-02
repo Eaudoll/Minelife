@@ -34,3 +34,4 @@ Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<minecraft:gold_ingot> ,<m
 Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<techreborn:ingot:11> ,<techreborn:ore:13>,1500);
 Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<minecraft:iron_ingot>*2,<ore:highIron>,1000);
 Recipe.SteamRecipeAdder(<assembly:steam_fire_furnace>,<minecraft:iron_ingot>,<ore:lowIron>,1000);
+Recipe.SteamRecipeAdder(<assembly:steam_compressor_machine>,<prodigytech:carbon_plate>,<ore:blockCoal>,1500);
