@@ -98,3 +98,31 @@ var recipe5 =AssemblyRecipe.create(function(container){
 
 FC.addRecipe(recipe5);
 FC.addJEIRecipe(recipe5);
+
+var recipe6 =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",<prodigytech:tartaric_aeroheater>);})
+.requireItem("input1",ferramic_iron)
+.requireItem("input3",ferramic_iron)
+.requireItem("input5",steam_furnace)
+.requireItem("input7",<prodigytech:zorrasteel_ingot>)
+.requireItem("input9",<prodigytech:zorrasteel_ingot>)
+.requireItem("input6",<prodigytech:zorrasteel_ingot>)
+.requireItem("input4",<prodigytech:zorrasteel_ingot>)
+.requireItem("input8",<betternether:cincinnasite_block>);
+
+FC.addRecipe(recipe6);
+FC.addJEIRecipe(recipe6);
+
+var recipe7 =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",<prodigytech:capacitor_aeroheater>);})
+.requireItem("input1",ferramic_iron)
+.requireItem("input3",ferramic_iron)
+.requireItem("input5",<prodigytech:circuit_refined>)
+.requireItem("input7",ferramic_iron)
+.requireItem("input9",ferramic_iron)
+.requireItem("input6",<ore:dustRedstone>)
+.requireItem("input4",<ore:dustRedstone>)
+.requireItem("input8",ferramic_iron);
+
+FC.addRecipe(recipe7);
+FC.addJEIRecipe(recipe7);
