@@ -126,3 +126,4 @@ var recipe7 =AssemblyRecipe.create(function(container){
 
 FC.addRecipe(recipe7);
 FC.addJEIRecipe(recipe7);
+
