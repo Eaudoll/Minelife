@@ -127,3 +127,31 @@ var recipe7 =AssemblyRecipe.create(function(container){
 FC.addRecipe(recipe7);
 FC.addJEIRecipe(recipe7);
 
+var recipe8 =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",<prodigytech:incinerator>);})
+.requireItem("input1",ferramic_iron)
+.requireItem("input5",<minecraft:lava_bucket>)
+.requireItem("input2",ferramic_iron)
+.requireItem("input7",ferramic_iron)
+.requireItem("input9",ferramic_iron)
+.requireItem("input6",ferramic_iron)
+.requireItem("input4",ferramic_iron)
+.requireItem("input3",ferramic_iron)
+.requireItem("input8",ferramic_iron);
+
+FC.addRecipe(recipe8);
+FC.addJEIRecipe(recipe8);
+
+var recipe9 =AssemblyRecipe.create(function(container){
+ container.addItemOutput("output",<prodigytech:blower_furnace>);})
+.requireItem("input1",ferramic_iron)
+.requireItem("input2",iron_ingot)
+.requireItem("input7",ferramic_iron)
+.requireItem("input9",ferramic_iron)
+.requireItem("input6",ferramic_iron)
+.requireItem("input4",ferramic_iron)
+.requireItem("input3",ferramic_iron)
+.requireItem("input8",iron_ingot);
+
+FC.addRecipe(recipe9);
+FC.addJEIRecipe(recipe9);
