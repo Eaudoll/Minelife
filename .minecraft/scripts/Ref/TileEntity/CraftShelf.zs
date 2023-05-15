@@ -32,7 +32,7 @@ Recipe.CTSEadder(<artisanworktables:worktable:5>,material,Output[i],2000);
 
 }
 
-Recipe.CTSEadder(<contenttweaker:gravel>,<contenttweaker:gravel>,<minecraft:cobblestone>,1000);
+Recipe.CTSEadder(<contenttweaker:gravel>,<contenttweaker:gravel>,<minecraft:cobblestone>*2,1000);
 
 Recipe.CTSEadder(<requious:craftshelf>,<techreborn:plates:3>,<artisanworktables:worktable:5>,1000);
 
