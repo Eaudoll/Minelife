@@ -3,6 +3,3 @@ type = customizablemenus
 net.minecraft.client.gui.GuiMainMenu {
 }
 
-com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
-}
-
