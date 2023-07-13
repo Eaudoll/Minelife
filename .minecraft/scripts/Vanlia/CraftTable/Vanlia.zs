@@ -22,3 +22,6 @@ for item in items{
  [null, null,null]]);
 
 recipes.addShapeless(<techreborn:plates:3>*4,[<ore:logWood>]);
+
+ recipes.addShapeless(<artisanworktables:worktable:5>,
+ [<techreborn:plates:3>,<techreborn:plates:3>,<techreborn:plates:3>,<techreborn:plates:3>]);
