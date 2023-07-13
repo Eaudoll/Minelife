@@ -13,7 +13,7 @@ import scripts.Ref.Function.Normal;
 
 function NineSlotsSet(Machine as Assembly){
 
-val hengs as int[] = [1,2,3,1,2,3,1,2,3]; 
+val hengs as int[] = [2,3,4,2,3,4,2,3,4]; 
 
 for i, heng in hengs{
 
