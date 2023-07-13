@@ -1,7 +1,7 @@
 {  
     "forge_marker": 1,
     "defaults": {
-      "model": "requiousfrakto:craftshelf",
+      "model": "requiousfrakto:worktable",
       "transform": "forge:default-block"
     },
     "variants":{
