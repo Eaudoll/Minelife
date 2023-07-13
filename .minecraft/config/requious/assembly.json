@@ -421,7 +421,7 @@
     "hasGUI":true,
     "extraVariants": [],
     "resourceName": "techbench",
-    "model": "requiousfrakto:workbench",
+    "model": "requiousfrakto:assemblying_machine",
     "colors": [
       {
         "r": 255,
