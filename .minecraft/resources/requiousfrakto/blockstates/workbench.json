@@ -1,7 +1,7 @@
 {  
     "forge_marker": 1,
     "defaults": {
-      "model": "requiousfrakto:workbench",
+      "model": "requiousfrakto:techbench",
       "transform": "forge:default-block"
     },
     "variants":{
